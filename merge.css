@@ -1,0 +1,42 @@
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+#wrap {
+	width: 70%;
+	margin: 0 auto;
+}
+
+/*comment out later*/
+header {
+	color: black;
+	font-family: Arial;
+	padding: 5px;
+}
+
+figure {
+	background-color: black;
+	text-align: center;
+	width: 500px;
+	padding: 10px 10px 5px 10px;
+	border: 1px solid white;
+	float: left;
+	margin: 20px;
+}
+
+
+figure img {
+	width: 100%;
+}
+
+figcaption {
+	color: white;
+	font-family: Arial;
+	padding: 5px;
+
+}
+
+article {
+	width: 90%
+	margin: 0 auto;
