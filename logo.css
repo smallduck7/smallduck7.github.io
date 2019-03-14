@@ -10,7 +10,6 @@ html, body {
 
 /*comment out later*/
 header, nav, section, footer {
-	background-color: #ddd;
 	height: 100px;
 	margin: 20px;
 }
