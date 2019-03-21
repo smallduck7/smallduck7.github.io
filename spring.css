@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Unicase|IM+Fell+Great+Primer|Indie+Flower|Ruthie');
+
+body {
+font-family: 'Indie Flower', cursive;
+	background-color: #0D081E;
+	margin: 0;
+	padding: 0;
+	/*background-image: url("retheme/dark3.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;*/
+
+}
+
+#wrap {
+	width: 80%;
+	margin: 0 auto;
+}
+
+footer img {
+	width: 30%;
+	height: 30%;
+}
+
+header {
+	text-align: center;
+	background-color: #0D081E;
+	/* background-image: url(bg.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;       To Get Image in Header*/
+}
+
+#mySidenav a {
+  position: absolute; /* Position them relative to the browser window */
+  left: -10px; 
+  transition: 0.3s; 
+  padding: 15px; 
+  width: 100px; 
+  text-decoration: none; /* Remove underline */
+  font-size: 20px; 
+  color: black; /* White text color */
+  border-radius: 0 7px 7px 0; 
+}
+
+#mySidenav a:hover {
+  left: 0; /* On mouse-over, make the elements appear as they should */
+}
+
+/* The about link: 20px from the top with a green background */
+#Home {
+  top: 20px;
+background-image: linear-gradient(#FFD183,#E4A36D,#B6774B);
+}
+
+#Autumn {
+  top: 80px;
+  background-color: #CC6E2C; 
+}
+
+#Winter {
+  top: 140px;
+  background-color: #D3D5C3; 
+}
+
+#Spring {
+  top: 200px;
+  background-color: #5FCB4D
+}
+
+#Summer {
+  top: 260px;
+  background-color: #e9dc4b 
+}
+
+section {
+	padding: 10px;
+	background-image: linear-gradient(#FFD183,#E4A36D,#B6774B);
+	overflow: auto;
+	color: black;
+	text-align: left;
+	font-size: 20px;
+}
+
+section img {
+	width: 50%;
+	height: 50%;
+	float: left;
+	padding: 20px;
+}
+
+#each {
+	font-size:50px;
+}
+
+
+
+
+footer {
+background-image: linear-gradient(#FFD183,#E4A36D,#B6774B);
+	color: black;
+	text-align: center;
+font-family: 'Indie Flower', cursive;
+	font-size: 20px;
+}
+
+

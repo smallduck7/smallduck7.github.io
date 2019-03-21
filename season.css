@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css?family=Special+Elite');
+
+body {
+	font-family: 'Special Elite', cursive;
+	background-color: #0D081E;
+	margin: 0;
+	padding: 0;
+	/*background-image: url("retheme/dark3.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;*/
+
+}
+
+#wrap {
+	width: 80%;
+	margin: 0 auto;
+}
+
+footer img {
+	width: 30%;
+	height: 30%;
+}
+
+header {
+	text-align: center;
+	background-color: #0D081E;
+	/*background-image: linear-gradient(pink,purple);*/
+	/* background-image: url(bg.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;       To Get Image in Header*/
+}
+
+#mySidenav a {
+  position: absolute; /* Position them relative to the browser window */
+  left: -10px; 
+  transition: 0.3s; 
+  padding: 15px; 
+  width: 100px; 
+  text-decoration: none; /* Remove underline */
+  font-size: 20px; 
+  color: #F0F0F0; /* White text color */
+  border-radius: 0 7px 7px 0; 
+}
+
+#mySidenav a:hover {
+  left: 0; /* On mouse-over, make the elements appear as they should */
+}
+
+/* The about link: 20px from the top with a green background */
+#Home {
+  top: 20px;
+  background-color: #2A253D;
+}
+
+#Autumn {
+  top: 80px;
+  background-color: #CC6E2C; 
+}
+
+#Winter {
+  top: 140px;
+  background-color: #D3D5C3; 
+}
+
+#Spring {
+  top: 200px;
+  background-color: #5FCB4D
+}
+
+#Summer {
+  top: 260px;
+  background-color: #e9dc4b 
+}
+
+section {
+	padding: 10px;
+	background-color: #0D081E;
+	overflow: auto;
+	color: #F0F0F0;
+	text-align: center;
+}
+
+#each {
+	font-size: 30px;
+}
+
+
+footer {
+	background-color: #0D081E;
+	color: #F0F0F0;
+	padding: 0px;
+	text-align: center;
+	font-family: 'Special Elite', cursive;
+}
+
+figure {
+	background-color: black;
+	text-align: center;
+	width: 236px;
+	padding: 10px 10px 10px 10px;
+	border: 1px solid white;
+	float: left;
+	margin: 20px;
+	font-size: 90%;
+}
+
+figure img {
+	width: 100%;
+}
+
+figcaption {
+	color: #F0F0F0;
+	font-family: 'Special Elite', cursive;
+	padding: 5px;
+}
