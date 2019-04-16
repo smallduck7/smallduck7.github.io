@@ -1,0 +1,45 @@
+<html>
+ <head>
+	<title>Nivo</title>
+	 <link rel="stylesheet" href="themes/default/default.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/light/light.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/dark/dark.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/bar/bar.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="nivo-slider.css" type="text/css" media="screen" />
+	<link href="template.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+	<div id="wrap">
+ <header>
+ </header>
+ 
+ <nav>
+ </nav>
+ 
+ <section>
+ <div class="slider-wrapper theme-dark">
+            <div id="slider" class="nivoSlider">
+                <img src="images/the.jpg" data-thumb="images/the.jpg" alt="" />
+                <img src="images/1.jpg" data-thumb="images/1.jpg" alt="" title="Megalodon was the dopest creature EVER!!!" />
+                <img src="images/3.jpg" data-thumb="images/3.jpg" alt="" data-transition="slideInLeft" />
+                <img src="images/meg.jpg" data-thumb="images/meg.jpg" alt="" title="#htmlcaption" />
+            </div>
+            <div id="htmlcaption" class="nivo-html-caption">
+                The Megalodon could eat a <strong>Freaking</strong> whale. 
+            </div>
+        </div>
+ 
+ </section>
+ 
+ <footer>
+ </footer>
+	</div> <!--close div wrap-->
+ <script type="text/javascript" src="scripts/jquery-1.9.0.min.js"></script>
+    <script type="text/javascript" src="jquery.nivo.slider.js"></script>
+    <script type="text/javascript">
+    $(window).load(function() {
+        $('#slider').nivoSlider();
+    });
+    </script>
+ </body>
+ </html>
