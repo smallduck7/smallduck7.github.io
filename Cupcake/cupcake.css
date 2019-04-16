@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+
+#wrap {
+	width: 65.2%;
+	margin: 0 auto;
+}
+
+#head {
+	width: 100%;
+}
+
+body {
+	background-color: #CCCCCC; 
+	font-family: 'Indie Flower', cursive;
+	}
+.column1 {
+	width: 150px;
+	height: 950px;
+	float: left;
+	padding: 30px;
+	text-decoration: none;
+	color: white;
+	background-color: #EC3632;
+	text-align: left;
+	font-size: 18px;
+	}
+	
+.column2 {
+	width: 75%;
+	float: right;
+	text-align: left;
+	text-decoration: none;
+	color: black;
+	background-color: white;
+	padding: 17.5px;
+	height: 975px;
+	}
+
+#buy {
+	width: 320px;
+	height: 200px;
+	float: right;
+}
+
+	
+#footer {
+	background-color: #0EC8C7;
+	padding: 7px;
+	font-size: 11px;
+	
+}	
+
+#top {
+	background-color: #0EC8C7;
+	padding: 2px;
+	
+	
+	
+}
+
+#top li {
+	display: inline;
+	}
+
+#top ul {
+	margin: 8;
+	padding: 0;
+}
+
+#top a {
+	color: white;
+	text-decoration: none;
+	padding: 5px 50px;
+	font-size: 20px;
+}
+	
+@media screen and (max-width:1200px) {
+	
+	#wrap {
+		width: 100%;
+}
+	.column2 {
+		width: 100%;
+	}
+	.column1 {
+		width: 100%;
+		text-align: center;
+		float: none;
+		height: 430px;
+		padding: 0;
+	}
+	
+	#head img {
+		width: 500px;
+	}
+}
+
+#top a:hover {
+	color: #915548;
+	background-color: #EC3632;
+}
