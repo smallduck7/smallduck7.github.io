@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css?family=Cinzel');
+html { 
+  background: url(circle.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body{
+	font-family: tahoma;
+	overflow: hidden;
+}
+
+footer {
+	color: #CBCDC0;
+	padding: 0px;
+	text-align: center;
+	font-family: 'Cinzel', serif;
+	position:fixed;
+   left:0px;
+   bottom:0px;
+   height:45px;
+   width:100%
+}
+
+.navbar{
+	width: 150px;
+	height: 150px;
+	line-height: 150px;
+	border-radius: 50%;
+	background: #313E43;
+	margin: 190px auto;
+	position: relative;
+	cursor: pointer;
+	text-align: center;
+	font-size: 2.75em;
+	font-weight: bold;
+	color: #CBCDC0;
+	transition: 0.24s 0.2s;
+	font-family: 'Cinzel', serif;
+}
+
+.navbar .menu{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	position: absolute;
+	top: -75px;
+	left: -75px;
+	border: 150px solid transparent;
+	cursor: default;
+	border-radius: 50%;
+	transform: scale(0);
+	transition: transform 1.4s 0,07s;
+	z-index: -1;
+}
+
+.navbar:hover .menu{
+	transition: transform 0.4s 0.08s, z-index 0s 0.5s;
+	transform: scale(1);
+	z-index: 1;
+}	
+
+.navbar .menu li{
+	position: absolute;
+	top: -100px;
+	left: -100px;
+	transform-origin: 100px 100px;
+	transition: all 0.5s 0.1s;
+}
+
+.navbar:hover .menu li{
+	transition: all 0.7s;
+}
+
+.navbar .menu li a{
+	width: 45px;
+	height: 45px;
+	line-height: 45px;
+	border-radius: 50%;
+	background: #313E43;
+	position: absolute;
+	font-size: 59%;
+	color: #CBCDC0;
+	transition: 0.7s;
+}
+
+.navbar:hover .menu li:nth-child(1){
+	transition-delay: 0.02s;
+	transform:rotate(85deg);
+}
+
+.navbar:hover .menu li:nth-child(1) a{
+	transition-delay: 0.04s;
+	transform:rotate(635deg);
+}
+
+.navbar:hover .menu li:nth-child(2){
+	transition-delay: 0.04s;
+	transform:rotate(125deg);
+}
+
+.navbar:hover .menu li:nth-child(2) a{
+	transition-delay: 0.08s;
+	transform:rotate(595deg);
+}
+
+.navbar:hover .menu li:nth-child(3){
+	transition-delay: 0.06s;
+	transform:rotate(165deg);
+}
+
+.navbar:hover .menu li:nth-child(3) a{
+	transition-delay: 0.12s;
+	transform:rotate(555deg);
+}
+
+
+.navbar:hover .menu li:nth-child(4){
+	transition-delay: 0.08s;
+	transform:rotate(205deg);
+}
+
+.navbar:hover .menu li:nth-child(4) a{
+	transition-delay: 0.16s;
+	transform:rotate(515deg);
+}
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  top: -140px;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+  text-align: center;
+
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: #CBCDC0;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.4);
+}
+
+
+
+
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
